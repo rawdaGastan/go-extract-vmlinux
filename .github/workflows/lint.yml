@@ -17,6 +17,9 @@ jobs:
         with:
           go-version: 1.21
 
+      - name: install liblzo2-dev
+        run: sudo apt install liblzo2-dev
+
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v5
         with:

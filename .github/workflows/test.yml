@@ -20,7 +20,7 @@ jobs:
         run: go mod download
 
       - name: install liblzo2-dev
-        run: apt install liblzo2-dev
+        run: sudo apt install liblzo2-dev
 
       - name: Test
         run: go test -v ./...
