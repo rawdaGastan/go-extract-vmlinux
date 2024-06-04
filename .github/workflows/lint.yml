@@ -21,6 +21,6 @@ jobs:
         run: sudo apt install liblzo2-dev
 
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v5
+        uses: golangci/golangci-lint-action@v6
         with:
           args: --config=.golangci.yml
