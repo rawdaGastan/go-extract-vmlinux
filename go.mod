@@ -5,7 +5,7 @@ go 1.21.0
 require (
 	github.com/cyberdelia/lzo v1.0.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/klauspost/compress v1.17.9
+	github.com/klauspost/compress v1.17.11
 	github.com/pierrec/lz4/v4 v4.1.21
 	github.com/rs/zerolog v1.33.0
 	github.com/stretchr/testify v1.9.0
